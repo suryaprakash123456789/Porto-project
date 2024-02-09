@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="porto.css" />
+  </head>
+  <body>
+    <div class="header-row h-100">
+      <div class="header-column justify-content-start">
+        <div class="header-row">
+          <nav class="header-nav-top">
+            <ul class="nav nav-pills">
+              <li class="nav-item py-2 d-none d-sm-inline-flex pe-2">
+                <span
+                  class="ps-0 font-weight-semibold text-color-default text-2"
+                  ><i
+                    class="icon-location-pin icons text-color-tertiary p-relative top-3 text-4-5"
+                  ></i>
+                  99 Porto St, Los Angeles, CA 10000</span
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="header-column justify-content-end">
+        <div class="header-row">
+          <nav class="header-nav-top">
+            <ul class="nav nav-pills p-relative bottom-2">
+              <li class="nav-item py-2 d-none d-md-inline-flex">
+                <a
+                  href="mailto:mail@domain.com"
+                  class="text-2 font-weight-semibold text-color-default text-color-hover-tertiary"
+                  ><i
+                    class="icon-envelope icons text-color-tertiary p-relative top-3 text-4-5"
+                  ></i>
+                  mail@domain.com</a
+                >
+              </li>
+              <li class="nav-item py-2 pe-2">
+                <span
+                  class="text-2 font-weight-semibold text-color-default d-none d-lg-block"
+                  ><i
+                    class="icon-clock icons text-color-tertiary p-relative top-3 text-4-5"
+                  ></i>
+                  Mon - Sat 9:00am - 6:00pm / Sunday - CLOSED</span
+                >
+              </li>
+              <li class="nav-item py-2 pe-2">
+                <a
+                  href="tel:123-456-7890"
+                  class="text-2 font-weight-semibold text-color-default text-color-hover-tertiary"
+                  ><i
+                    class="icon-phone icons text-color-tertiary p-relative top-2 text-4-5"
+                  ></i>
+                  123-456-7890</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="porto logo.png" width="123" height="32" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Overview</a></li>
+                <li><a class="dropdown-item" href="#">Dental Exams</a></li>
+                <li><a class="dropdown-item" href="#">Dental Cleaning</a></li>
+                <li><a class="dropdown-item" href="#">Root Extraction</a></li>
+                <li><a class="dropdown-item" href="#">Cleaning</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Gallery</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Current</a
+              >
+            </li>
+          </ul>
+
+          <div
+            class="header-nav-features header-nav-features-no-border pe-3 order-1 order-lg-2"
+          >
+            <div
+              class="header-nav-feature header-nav-features-search d-inline-flex"
+            >
+              <a
+                href="#"
+                class="header-nav-features-toggle text-decoration-none"
+                data-focus="headerSearch"
+                aria-label="Search"
+                ><i
+                  class="fas fa-search header-nav-top-icon text-4 p-relative top-3"
+                ></i
+              ></a>
+              <div
+                class="header-nav-features-dropdown"
+                id="headerTopSearchDropdown"
+              >
+                <form
+                  role="search"
+                  action="page-search-results.html"
+                  method="get"
+                >
+                  <div class="simple-search input-group">
+                    <input
+                      class="form-control text-1"
+                      id="headerSearch"
+                      name="q"
+                      type="search"
+                      value=""
+                      placeholder="Search..."
+                    />
+                    <button class="btn" type="submit" aria-label="Search">
+                      <i class="fas fa-search header-nav-top-icon"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div
+              class="header-nav-feature header-nav-features-side-panel d-inline-flex ms-2"
+            >
+              <a
+                href="#"
+                class="side-panel-toggle btn btn-quaternary custom-text-color-1 border-0 d-none d-lg-inline-block ms-2"
+                data-extra-class="side-panel-right"
+                ><i class="fas fa-bars"></i
+              ></a>
+            </div>
+          </div>
+          <!-- <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form> -->
+        </div>
+      </div>
+    </nav>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+<!-- <div class="header-nav-feature header-nav-features-search d-inline-flex">
+    <a href="#" class="header-nav-features-toggle text-decoration-none" data-focus="headerSearch" aria-label="Search"><i class="fas fa-search header-nav-top-icon text-4 p-relative top-3"></i></a>
+    <div class="header-nav-features-dropdown" id="headerTopSearchDropdown">
+        <form role="search" action="page-search-results.html" method="get">
+            <div class="simple-search input-group">
+                <input class="form-control text-1" id="headerSearch" name="q" type="search" value="" placeholder="Search...">
+                <button class="btn" type="submit" aria-label="Search">
+                    <i class="fas fa-search header-nav-top-icon"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+</div> -->
