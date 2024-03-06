@@ -1,0 +1,47 @@
+.carousel-item { 
+    background-image: url(/Assets/service-1\ logo.jpg);
+    background-image: url(/Assets/service-2.jpg);
+    background-image: url(Assets/service-3.jpg);
+    background-image: url(/Assets/service-4\ \(1\).jpg);
+    background-repeat: no-repeat;
+ 
+  
+  }
+  
+  .item12{
+    background-color: blueviolet;
+      width: 750px;
+     height: 80vh;
+      background-image: url(/Assets/service-1\ logo.jpg),url(/Assets/service-2.jpg);
+      background-repeat: no-repeat;
+     
+      }
+  
+  .mn{
+     margin-left:50%;
+     margin-top: 13%;   
+     margin-right: 15%;
+  
+  }
+  .bl,.nj{
+      color:dimgray;
+      font-size: 20px;
+      font-weight: 495;
+  }
+  .vb{
+      margin-left:4%;
+      margin-top: 13%;
+      margin-right: 60%;
+  }
+  /* .carousel-control-prev-icon,.carousel-control-next-icon{
+      background-color:gray;
+  
+  
+      padding: 12%;
+      width: 40px;
+      height: 40px;
+  margin-top: 205%;
+  }
+  .carousel-control-prev-icon{
+      margin-right:-1083%;
+  } */

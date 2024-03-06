@@ -1,0 +1,45 @@
+.carousel-item {
+  width: 100% !important;
+  height: 80vh;
+  background-image: url(/Assets/tooth234.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+
+.item12{
+    width: 100% !important;
+    height: 80vh;
+    background-image: url(/Assets/teet1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    }
+
+.mn{
+   margin-left:50%;
+   margin-top: 13%;
+   margin-right: 15%;
+
+}
+.bl,.nj{
+    color:dimgray;
+    font-size: 20px;
+    font-weight: 495;
+}
+.vb{
+    margin-left:4%;
+    margin-top: 13%;
+    margin-right: 60%;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color:gray;
+
+
+    padding: 12%;
+    width: 40px;
+    height: 40px;
+margin-top: 205%;
+}
+.carousel-control-prev-icon{
+    margin-right:-1083%;
+}

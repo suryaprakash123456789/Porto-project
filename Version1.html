@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./Styles/Version1.css" />
+
+</head>
+
+<body>
+    <div class="container-fluid cont1">
+        <!--                                           heading                                                                     -->
+
+        <div class="row headin">
+            <div class="col">
+                <div class="container-fluid nav1 p-3 ">
+                    <div class="flex-item item-1">
+                        <div class="addres">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 22s8.029-5.56 8-12c0-4.411-3.589-8-8-8S4 5.589 4 9.995C3.971 16.44 11.696 21.784 12 22zM8 9h3V6h2v3h3v2h-3v3h-2v-3H8V9z" />
+                            </svg>
+                            99 Porto St, Los Angeles, CA 10000
+                        </div>
+                    </div>
+                    <div class="flex-item item-2">
+                        <div class="mail">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z" />
+                            </svg>
+                            mail@domain.com
+                        </div>
+                    </div>
+                    <div class="flex-item item-3">
+                        <div class="visit">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z" />
+                                <path d="M13 7h-2v5.414l3.293 3.293 1.414-1.414L13 11.586z" />
+                            </svg>
+                            Mon - Sat 9:00am - 6:00pm / Sunday - CLOSED
+                        </div>
+                    </div>
+                    <div class="flex-item item-4">
+                        <div class="mob">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M16.57 22a2 2 0 0 0 1.43-.59l2.71-2.71a1 1 0 0 0 0-1.41l-4-4a1 1 0 0 0-1.41 0l-1.6 1.59a7.55 7.55 0 0 1-3-1.59 7.62 7.62 0 0 1-1.59-3l1.59-1.6a1 1 0 0 0 0-1.41l-4-4a1 1 0 0 0-1.41 0L2.59 6A2 2 0 0 0 2 7.43 15.28 15.28 0 0 0 6.3 17.7 15.28 15.28 0 0 0 16.57 22zM6 5.41 8.59 8 7.3 9.29a1 1 0 0 0-.3.91 10.12 10.12 0 0 0 2.3 4.5 10.08 10.08 0 0 0 4.5 2.3 1 1 0 0 0 .91-.27L16 15.41 18.59 18l-2 2a13.28 13.28 0 0 1-8.87-3.71A13.28 13.28 0 0 1 4 7.41zM20 11h2a8.81 8.81 0 0 0-9-9v2a6.77 6.77 0 0 1 7 7z" />
+                                <path d="M13 8c2.1 0 3 .9 3 3h2c0-3.22-1.78-5-5-5z" />
+                            </svg>123-456-7890
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--                                            NavBar                                                                        -->
+
+        <div class="row navbar1 p-5">
+            <div class="container-fluid  ct1 px-0">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary nav2">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img src="/Assets/porto logo.png" width="123" height="32" />
+                        </a>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse super" id="navbarScroll">
+                            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                                style="--bs-scroll-height: 100px">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Services</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Overview</a></li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Dental Exams</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Dental Cleaning</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Root Extraction</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Cleaning</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Current</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Elements</a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Overview</a></li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Dental Exams</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Dental Cleaning</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Root Extraction</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Cleaning</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <img src="search.png"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <img src="menu-regular-24.png">
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!--                                           Carousel                                                                -->
+
+        <div class="col p-0 ">
+            <div id="carouselExample" class="carousel slide z-0">
+                <div class="carousel-inner">
+                    <div class="carousel-item item-11 active ">
+                        <div class="clitem1">
+                            <h1 class="clitem2"><b>Dental Care in LA Affordable Full-Service</b></h1>
+                            <p class="clitem3">Lorem ipsum dolor sit amet, consectetur adipiscing elit vestibulum
+                                sed
+                                euismod dui.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item item-12">
+                        <div class="clitem4">
+                            <h1 class="clitem5">Affordable Full-Service Dental Care in LA</h1>
+                            <p class="clitem6">Lorem ipsum dolor sit amet, consectetur adipiscing elit vestibulum
+                                sed
+                                euismod dui.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <!--                                           Booking                                                                     -->
+
+        <div class="row">
+            <div class="col-lg-8 book1">
+                <p class="book2">
+                    <strong>Book Appointment Online</strong> - Need Immediate
+                    Confirmation? Call Us at 888-123-456
+                </p>
+            </div>
+            <div class="col-lg-4 book3">
+                <span><button class="button btn1">Book Appointment</button></span>
+            </div>
+        </div>
+
+        <!--                                  loction,services,rating  logo                                                             -->
+        <div class="row">
+            <div class="col-lg-4">
+                <center>
+                    <img src="/Assets/images 123.png" alt="" class="img1" /><br />
+                    <h1><strong>Convenient Location</strong></h1>
+                    <p class="service1">
+                        Lorem ipsum dolor sit amet, consec tetur adipiscing el nc viverra
+                        erat orcias ac auctor.
+                    </p>
+                </center>
+            </div>
+            <div class="col-lg-4">
+                <center>
+                    <img src="/Assets/img12.jpg" alt="" class="img1" />
+                    <br />
+                    <h1><strong>Full-Service</strong></h1>
+
+                    <p class="service2">
+                        Lorem ipsum dolor sit amet, con sectetur adipiscing el nc viverra
+                        eratorci ac auctor.
+                    </p>
+                </center>
+            </div>
+            <div class="col-lg-4">
+                <center>
+                    <img src="/Assets/images234.png" alt="" class="img1" /><br />
+                    <h1><strong> Top Rated Dentists</strong><br /></h1>
+                    <p class="service3">
+                        Top Rated Dentists Lorem ipsum dolor sit amet, consec tetur
+                        adipiscing el nc viverra eratorciac auctor.
+                    </p>
+                </center>
+            </div>
+        </div>
+
+        <!--                                               tooth log                                                                    -->
+
+        <div class="row div1">
+            <div class="col-lg-6 s3">
+                <img src="/Assets/tooth.png" class="img3" />
+            </div>
+            <div class="col-lg-6 toothbrief">
+                <h4 class="about">ABOUT US</h4>
+                <h1 class="Welcome">
+                    <strong>
+                        Welcome To Porto Dentist<br />
+                        Downtown Los Angeles
+                    </strong>
+                </h1>
+
+                <p class="toothsent">
+                    Cras a elit sit amet leo accumsan volutpat. Suspendisse hendreriast
+                    ehicula leo, vel efficitur felis ultrices non. Cras a elit sit amet
+                    leo acun volutpat. Suspendisse hendrerit vehicula leo, vel efficitur
+                    fel.
+                </p>
+
+                <img src="/Assets/logo6.png" width="160px" class="numberlogo mt-2 " />
+
+                <g class="toothsent1">Cras a elit sit amet leo accumsan volutpat.Suspendisse.</g>
+                <br /><br />
+
+                <button class="button toothbtn1">Explore Services</button>
+            </div>
+        </div>
+
+        <!--                                          main carousel                                                               -->
+        <div class="row ">
+
+            <div class=" d-flex flex-row carousel-item1   justify-content-around  p-3 ">
+                <div class="col-lg-3 doctorimg1"><img src="service-1 logo.jpg" width="300px"></div>
+                <div class="col-lg-3 doctorimg2"><img src="service-2.jpg" width="300px" /></div>
+                <div class="col-lg-3 doctorimg3"><img src="service-3.jpg" width="300px" /></div>
+                <div class="col-lg-3 doctorimg4"><img src="service-4 (1).jpg" width="300px" /></div>
+            </div>
+
+        </div>
+
+        <!--                                            Special Services                                                            -->
+        <div class="row">
+            <div class="col-lg-6 p-5 ssp">
+                <br />
+                <p class="specialservice1">SPECIAL SERVICES</p>
+                <h1 class="specialservice2"><b>Premium Dental Care services for everyone.</b></h1>
+                <br />
+                <p class="specialservice3">
+                    Cras a elit sit amet leo accumsan volutpat. Suspendisse hendreriast
+                    ehicula leo, vel efficitur felis ultrices non. Cras a elit sit amet
+                    leo acun volutpat. Suspendisse hendrerit vehicula leo, vel efficitur
+                    fel
+                </p>
+            </div>
+            <div class="col-lg-6 p-5 servicelogo12">
+                <br />
+                <div class="servicelogo123 ">
+                    <img src="/Assets/tick1img.jpeg" width="40px" height="30px" />
+                    <q>
+                        Cras a elit sit amet leo accumsan volutpat. Suspendisse hendreriast
+                        leo.
+                    </q>
+                </div>
+                <br /><br />
+                <div class="servicelogo13">
+                    <img src="/Assets/tick1img.jpeg" width="40px" height="30px" />&nbsp;<q>
+                        Elit sit amet leo accumsan volutpat. Suspendisse hendreriast ehicula
+                        leo.
+                    </q>
+                </div>
+                <br /><br />
+                <div class="servicelogo14">
+                    <img src="/Assets/tick1img.jpeg" width="40px" height="30px" /><q>
+                        Ras a elit sit amet leo accumsan volutpat. Suspendisse hendreriast
+                        leo.
+                    </q>
+                </div>
+            </div>
+        </div>
+        <!--                                                bookinfo                                                                    -->
+        <div class="row">
+            <div class="col-lg-8 bookinfo1">
+                <br />
+
+                <b>Book Appointment Online</b> - Need Immediate Confirmation? Cal Us at 888-123-4567
+
+            </div>
+            <div class="col-lg-4 bookinfo2">
+                <button class="button btn2">Book Appointment</button>
+            </div>
+        </div>
+        <!--                                             porto dentists                                                              -->
+        <div class="row p-5">
+            <div class="portodentists1">
+
+                <h5 class="portodentists2">PORTO DENTISTS</h5>
+                <div class="portodentists3">
+                    <h1><b>Meet Our Dentists</b></h1>
+                </div>
+
+                <p class="portodentists4">
+                    Cras a elit sit amet leo accumsan volutpat. Suspendisse
+                    hendreriast ehicula leo, vel efficitur felis ultrices non. Cras a
+                    elit sit amet leo acun<br />
+                    volutpat. Suspendisse hendrerit vehicula leo, vel efficitur fel
+                </p>
+
+            </div>
+        </div>
+
+        <!--                                                  doctorcarousel                                               -->
+
+        <div class="row ">
+            <div class="col-md-4">
+            <figure>
+                <center><img src="team-1.jpg" /></center>
+                <figcaption><p class=" text-center doctorcarousel1 mx-5 p-3">Jhon Doe<br /> Dentist, owner</p></figcaption>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure>
+                <center><img src="team-2.jpg" /></center>
+                <figcaption><p class=" text-center doctorcarousel1 mx-5 p-3">Janice Doe<br />Dental Hygienist</p></figcaption>
+            </figure>
+        </div>
+        <div class="col-md-4   ">
+            <figure>
+                <center><img src="team-3.jpg" /></center>
+                <figcaption><p class=" text-center doctorcarousel1 mx-5 p-3">Peter Philipse<br />Dental Hygienist</p></figcaption>
+            </figure>
+        </div>
+          
+    </div>
+
+        <!--                                                   teeth slider                                                  -->
+        <div class="row">
+            <div class="col-lg-6 p-4 bg-info d-flex justify-content-center align-items-center "><img
+                    src="before-after-2.jpg" width="90%" height="80%"></div>
+            <div class="col-lg-6 p-4 bg-info text-light   ">
+                <center><img src="logo123.png" class="mt-5 "></center>
+                <center>
+                    <p class="mt-5 ">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendreriast ehicula leo,
+                        vel efficitur felis ultrices non. Cras a elit sit amet leo acun volutpat.</p>
+                </center>
+
+                <center><b>Janice Smith</b></center>
+            </div>
+        </div>
+        <!--logos                                                       -->
+        <div class="row cv">
+            <div class="col-sm-4 col-lg-2 p-2">
+                <img src="/Assets/logo-11.png" width="100px" />
+            </div>
+            <div class="col-sm-4 col-lg-2 p-2 ">
+                <img src="/Assets/logo-22.png" width="150px" />
+            </div>
+            <div class="col-sm-4 col-lg-2 p-2 ">
+                <img src="/Assets/logo-33.png " width="150px" />
+            </div>
+            <div class="col-sm-4 col-lg-2 p-2 ">
+                <img src="/Assets/logo-44.png " width="150px" />
+            </div>
+            <div class="col-sm-4 col-lg-2 p-2">
+                <img src="/Assets/logo-55.png " width="150px" />
+            </div>
+            <div class="col-sm-4 col-lg-2 p-2">
+                <img src="/Assets/logo-66.png " width="155px" />
+            </div>
+        </div>
+
+        <!--                                                         bookfree                                              -->
+        <div class="row">
+            <div class="col-lg-12 p-5">
+                <center>
+                    <h5 class="bookfree1">BOOK ONLINE</h5>
+                    <h1 class="bookfree2"><b>Request an Appointment</b></h1>
+                    <p class="bookfree3">
+                        Cras a elit sit amet leo accumsan volutpat. Suspendisse
+                        hendreriast ehicula leo, vel efficitur felis ultrices non
+                    </p>
+                </center>
+            </div>
+        </div>
+
+        <!--                                                       input type                                             -->
+        <div class="row inputtype1 ">
+
+            <div class="col-lg-6 d-flex justify-content-center inp">
+                <input type="text" name="name" placeholder="your name" class="inp1" />
+
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center inp">
+                <input type="number" value="number" placeholder="Phone Number" class="inp2" />
+            </div>
+        </div>
+
+        <div class="row inputtype2">
+            <div class="col-lg-6 d-flex justify-content-center inp">
+                <input type="text" name="Email" placeholder="Email" class="inp0" />
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center inp">
+
+                <input type="text" name="service" placeholder="your service" class="inp3" />
+            </div>
+        </div>
+
+
+        <div class="row inputtype3">
+            <div class="col-12 d-flex justify-content-center inp5">
+
+                <input type="text" name="Details" placeholder="Details" class="inp4" />
+
+            </div>
+        </div>
+        <!--
+                                                                 submit                                                   -->
+        <div class="row submitbtn">
+            <div class="col-lg-12">
+                <button class="btn3">Submit</button>
+            </div>
+        </div>
+
+        <!--                                                      Nav2                                         -->
+        <div class="row Nav2">
+            <div class="col-lg-6">
+                <div class="flex-item item-1">
+                    <div class="addres1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path
+                                d="M12 22s8.029-5.56 8-12c0-4.411-3.589-8-8-8S4 5.589 4 9.995C3.971 16.44 11.696 21.784 12 22zM8 9h3V6h2v3h3v2h-3v3h-2v-3H8V9z" />
+                        </svg>
+                        99 Porto St, Los Angeles, CA 10000
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3  one">
+                <div class="flex-item item-2">
+                    <div class="mail1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path
+                                d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z" />
+                        </svg>
+                        mail@domain.com
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 ">
+                <div class="flex-item item-3">
+                    <div class="mob1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path
+                                d="M16.57 22a2 2 0 0 0 1.43-.59l2.71-2.71a1 1 0 0 0 0-1.41l-4-4a1 1 0 0 0-1.41 0l-1.6 1.59a7.55 7.55 0 0 1-3-1.59 7.62 7.62 0 0 1-1.59-3l1.59-1.6a1 1 0 0 0 0-1.41l-4-4a1 1 0 0 0-1.41 0L2.59 6A2 2 0 0 0 2 7.43 15.28 15.28 0 0 0 6.3 17.7 15.28 15.28 0 0 0 16.57 22zM6 5.41 8.59 8 7.3 9.29a1 1 0 0 0-.3.91 10.12 10.12 0 0 0 2.3 4.5 10.08 10.08 0 0 0 4.5 2.3 1 1 0 0 0 .91-.27L16 15.41 18.59 18l-2 2a13.28 13.28 0 0 1-8.87-3.71A13.28 13.28 0 0 1 4 7.41zM20 11h2a8.81 8.81 0 0 0-9-9v2a6.77 6.77 0 0 1 7 7z" />
+                            <path d="M13 8c2.1 0 3 .9 3 3h2c0-3.22-1.78-5-5-5z" />
+                        </svg>123-456-7890
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--                                             footer1                                                              -->
+        <div class="row  ">
+            <div class="col-md-6 col-lg-3 footer1">
+                <img src="/Assets/logo-light.png" />
+            </div>
+            <div class="col-md-6 p-5 col-lg-3 footer2">
+                <p>
+                    <b>About Us</b><br /><br />
+                    ADDRESS GET DIRECTIONS<br /><br />
+                    PHONE Emergency: +123 4567 890<br />
+                    Appointments: +123 4567 890
+                    <br /><br />
+                    EMAIL mail@example.com
+                </p>
+            </div>
+            <div class="col-md-6  col-lg-3 p-5 footer3">
+                <p classs="xx">
+                    <b>ur Services</b><br /><br />
+                    Dental Exams<br />
+                    Dental Cleaning<br />
+                    Tooth Extraction<br />
+                    Root Canal<br />
+                    Clear Braces<br />
+                    Teeth Whitening<br />
+                    Oral Surgery<br />
+                    Dental Implants
+                </p>
+            </div>
+            <div class="col-md-6  col-lg-3 p-5 footer4">
+                <p>
+                    <b>Opening Hours</b><br /><br />
+                    Mon - Fri: 8:30 am to 5:00 pm<br /><br />
+                    Saturday: 9:30 am to 1:00 pm<br /><br />
+                    Sunday: Closed
+                </p>
+            </div>
+        </div>
+        <!--                                                   footerpart2                                             -->
+        <div class="row footerpt2">
+            <div class="col-12 p-2 footerpart2 ">
+                <center>
+                    <p>Porto Dentist © 2024. All Rights Reserved.</p>
+                </center>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

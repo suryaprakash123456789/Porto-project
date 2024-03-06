@@ -1,0 +1,211 @@
+.cont1 {
+  display: flex;
+  font-size: 0.8rem !important;
+  padding: 10px 10px;
+  /* background-color: #ebedf7; */
+  justify-content: center;
+}
+.item-1 {
+  flex-grow: 4;
+  padding-left: 10px;
+}
+.item-2 {
+  flex-grow: 0.5;
+}
+.item-3 {
+  flex-grow: 0.5;
+}
+.item-4 {
+  flex-grow: 0.5;
+}
+.super {
+  padding-left: 150px;
+  padding-bottom: 10px;
+}
+img {
+  justify-content: space-around;
+}
+.spp {
+  /* justify-content: center; */
+  /* color: aliceblue; */
+  /* padding: 10px 10px 10px 10px; */
+  /* align-items: center; */
+  /* align-content: center; */
+  background-color: #3d4eaf;
+  /* font-size: medium; */
+  /* padding-left: -2px; */
+}
+.sp {
+  color: aliceblue;
+  padding: 10px;
+  
+}
+.upp {
+  color: aliceblue;
+  padding-top: 25px;
+  background-color: #3d4eaf;
+  font-size: medium;
+  padding-right: 20px;
+}
+.btn1 {
+  border: 0;
+  background-color: #36459b;
+  padding: 10px;
+  font-size: medium;
+  color: aliceblue;
+}
+.cl {
+  padding: 10px;
+}
+.sp12 {
+  background-image: cover;
+  display: flex;
+  gap: 3px;
+}
+.spp {
+  padding: 20px;
+}
+.ee {
+  color: #3d4eaf;
+  font-size: 25px;
+}
+.btn2 {
+  border: 0;
+  background-color: #36459b;
+  font-size: medium;
+  color: aliceblue;
+  padding: 10px;
+}
+.surya {
+  padding: 10px;
+}
+.s4 {
+  font-size: 35px;
+}
+.we {
+  background-color: aliceblue;
+  width: 356px;
+  height: 100px;
+  padding: 20px;
+}
+.done {
+  font-size: 20px;
+  color: aliceblue;
+  background-color: aqua;
+  font-weight: 600;
+}
+.eee {
+  background-color: aqua;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 0px;
+}
+.tt,
+.ss,
+.pp,
+.jj,
+.yy,
+.uu {
+  padding: 20px;
+}
+.inp1,
+.inp2,
+.inp3,
+.inp0 {
+  width: 500px;
+  padding: 20px;
+  border: 0px;
+  background-color: aliceblue;
+}
+.inp4 {
+  width: 1000px;
+  height: 300px;
+  border: 0px;
+  background-color: aliceblue;
+}
+.india {
+  background-color: dimgrey;
+}
+.wrt {
+  background-color: white;
+}
+.btn12 {
+  border: 0;
+  background-color: #36459b;
+  padding: 25px;
+  font-size: medium;
+  color: aliceblue;
+  width: 145px;
+
+}
+.qe {
+  /* padding-left: 100px; */
+  padding-bottom: 20px;
+}
+.cont2 {
+  display: flex;
+  font-size: 0.8rem !important;
+  padding: 10px 10px;
+  /* background-color: #ebedf7; */
+  justify-content: center;
+}
+.sr {
+  background-color: dimgray;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rr {
+  background-color: dimgray;
+  color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.chn,
+.pak,
+.lon,.india {
+  background-color: dimgray;
+  color: aliceblue;
+}
+.god {
+  background-color: dimgray;
+  color: grey;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.js {
+  background-color: dimgray;
+  color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.pak{
+  padding-left: 200px;
+}
+.sd{
+  background-color: dimgray;
+  color:aliceblue;
+  font-weight: 800;
+}
+.sq{
+width: 200px;
+  
+}
+.zz{
+  font-weight: 800;
+  font-size: larger;
+}
+.god:hover{
+   color: aliceblue;
+}
+.a1{
+  background-image: url("images\ teeth.jpeg");
+  width:200px;
+  background-repeat: no-repeat;
+  background-size:;
+
+}
